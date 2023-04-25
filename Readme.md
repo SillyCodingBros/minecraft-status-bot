@@ -32,11 +32,13 @@ Forked from AugusDogus [minecraft-status-bot](https://github.com/AugusDogus/mine
 
 ## Running from Docker Compose
     ---
-    version: "2.1"
+    version: "3"
     services:
       minecraft-status-bot:
         container_name: minecraft-status-bot
-        image: augusdogus/minecraft-status-bot:latest
+        build:
+          context: https://github.com/SillyCodingBros/minecraft-status-bot.git
+          dockerfile: Dockerfile
         environment:
           - token=Disord_Bot_Token_Here
           - ip=Minecraft_Server_IP_Here
