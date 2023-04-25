@@ -1,3 +1,9 @@
+## Forked Version
+
+Forked from AugusDogus [minecraft-status-bot](https://github.com/AugusDogus/minecraft-status-bot/)
+
+---
+
 <p align="center">
 <img src="https://i.imgur.com/shFtqm7.png" alt="Logo">
 </p>
@@ -23,6 +29,19 @@
 ## Running from Docker Hub
 
     $ docker run --name minecraft-status-bot -e "token=Disord_Bot_Token_Here" -e "ip=Minecraft_Server_IP_Here" -e "delay=Time_In_Milliseconds" augusdogus/minecraft-status-bot:latest
+
+## Running from Docker Compose
+    ---
+    version: "2.1"
+    services:
+      minecraft-status-bot:
+        container_name: minecraft-status-bot
+        image: augusdogus/minecraft-status-bot:latest
+        environment:
+          - token=Disord_Bot_Token_Here
+          - ip=Minecraft_Server_IP_Here
+          - delay=Time_In_Milliseconds
+        restart: unless-stopped
 
 ## Building & Running from source
 

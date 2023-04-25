@@ -131,8 +131,8 @@ async function generateEmbed(state: QueryResult) {
 
 	const embed = new MessageEmbed();
 	embed.setColor('#5cb85c');
-	embed.setTitle('mc.compatibilityissues.com');
-	embed.setURL('https://map.compatibilityissues.com');
+	embed.setTitle('Players:');
+	//embed.setURL('https://map.compatibilityissues.com');
 	embed.setDescription(playerText);
 	embed.setFooter(`Who's playing?`);
 	embed.setTimestamp(new Date());
