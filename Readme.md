@@ -17,7 +17,7 @@
 
 - [Docker](https://docs.docker.com/get-docker/)
 - A [discord bot](https://discordapp.com/developers/applications/) token
-- A Minecraft server (Example: **itzg** [Docker Minecraft Server](https://github.com/itzg/docker-minecraft-server))
+- A Minecraft server (Example: **itzg**'s [Docker Minecraft Server](https://github.com/itzg/docker-minecraft-server))
 - [Node.js](https://nodejs.org/en/download) (for development)
 
 ## Running from Docker Compose
