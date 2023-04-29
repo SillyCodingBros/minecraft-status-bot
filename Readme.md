@@ -1,34 +1,24 @@
-## Forked Version
-
-Forked from AugusDogus [minecraft-status-bot](https://github.com/AugusDogus/minecraft-status-bot/)
-
----
-
 <p align="center">
 <img src="https://i.imgur.com/shFtqm7.png" alt="Logo">
 </p>
 
-[![Docker Image CI](https://github.com/AugusDogus/minecraft-status-bot/actions/workflows/docker-image.yml/badge.svg)](https://github.com/AugusDogus/minecraft-status-bot/actions/workflows/docker-image.yml) [![Docker Pulls](https://img.shields.io/docker/pulls/augusdogus/minecraft-status-bot)](https://hub.docker.com/r/augusdogus/minecraft-status-bot) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/fa067f6879b74528b3a2ed791cb60e3e)](https://www.codacy.com/gh/AugusDogus/minecraft-status-bot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=AugusDogus/minecraft-status-bot&amp;utm_campaign=Badge_Grade) ![GitHub](https://img.shields.io/github/license/AugusDogus/minecraft-status-bot?color=blue) [![ko-fi](https://img.shields.io/badge/Buy%20me%20a-Coffee-brightgreen)](https://ko-fi.com/augusdogus)
+[![GitHub](https://img.shields.io/github/license/SillyCodingBros/minecraft-status-bot?color=blue&style=for-the-badge)
 
 ---
 
 <details>
   <summary>Example</summary>
-  
+
   <img src="https://i.imgur.com/ac1wj7n.png" align="center"/>
-  
+
 </details>
 
 ## Requirements
 
-- Docker
+- [Docker](https://docs.docker.com/get-docker/)
 - A [discord bot](https://discordapp.com/developers/applications/) token
-- A Minecraft server
-- Node.js (for development)
-
-## Running from Docker Hub
-
-    $ docker run --name minecraft-status-bot -e "token=Disord_Bot_Token_Here" -e "ip=Minecraft_Server_IP_Here" -e "delay=Time_In_Milliseconds" augusdogus/minecraft-status-bot:latest
+- A Minecraft server (Example: itzg [Docker Minecraft Server](https://github.com/itzg/docker-minecraft-server))
+- [Node.js](https://nodejs.org/en/download) (for development)
 
 ## Running from Docker Compose
     ---
@@ -47,7 +37,7 @@ Forked from AugusDogus [minecraft-status-bot](https://github.com/AugusDogus/mine
 
 ## Building & Running from source
 
-    $ git clone https://github.com/augusdogus/minecraft-status-bot
+    $ git clone https://github.com/SillyCodingBros/minecraft-status-bot.git
     $ cd minecraft-status-bot
     $ docker build -t minecraft-status-bot .
     $ docker run --name minecraft-status-bot -e "token=Disord_Bot_Token_Here" -e "ip=Minecraft_Server_IP_Here" -e "delay=Time_In_Milliseconds" minecraft-status-bot:latest
@@ -58,5 +48,4 @@ This project is licensed under the MIT License - see the [License](License) file
 
 ## Acknowledgments
 
-- Thanks to **tedztar**'s initial work on the first [bot](https://github.com/tedztar/mcstatusbot/).
-- Thanks to **Huskydog9988**'s [revision](https://github.com/Huskydog9988/mcstatusbot) of tedztar's code from which this project was inspired.
+- Thanks to **AugusDogus**'s [minecraft-status-bot](https://github.com/AugusDogus/minecraft-status-bot/) from which this project was forked.
