@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/shFtqm7.png" alt="Logo">
 </p>
 
-[![GitHub](https://img.shields.io/github/license/SillyCodingBros/minecraft-status-bot?color=blue&style=for-the-badge)
+[![GitHub](https://img.shields.io/github/license/SillyCodingBros/minecraft-status-bot?color=blue&style=for-the-badge)](License)
 
 ---
 
@@ -17,7 +17,7 @@
 
 - [Docker](https://docs.docker.com/get-docker/)
 - A [discord bot](https://discordapp.com/developers/applications/) token
-- A Minecraft server (Example: itzg [Docker Minecraft Server](https://github.com/itzg/docker-minecraft-server))
+- A Minecraft server (Example: **itzg** [Docker Minecraft Server](https://github.com/itzg/docker-minecraft-server))
 - [Node.js](https://nodejs.org/en/download) (for development)
 
 ## Running from Docker Compose
@@ -48,4 +48,4 @@ This project is licensed under the MIT License - see the [License](License) file
 
 ## Acknowledgments
 
-- Thanks to **AugusDogus**'s [minecraft-status-bot](https://github.com/AugusDogus/minecraft-status-bot/) from which this project was forked.
+- Thanks to **AugusDogus**' [minecraft-status-bot](https://github.com/AugusDogus/minecraft-status-bot/) from which this project was forked.
