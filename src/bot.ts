@@ -125,7 +125,7 @@ async function generateEmbed(state: QueryResult) {
 		if (playerText === '') {
 			playerText = '• ' + players[i];
 		} else {
-			playerText = playerText + '\n • ' + players[i];
+			playerText = playerText + '\n• ' + players[i];
 		}
 	}
 

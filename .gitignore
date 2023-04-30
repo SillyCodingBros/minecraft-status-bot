@@ -80,3 +80,6 @@ jspm_packages/
 
 #Typescript build output
 build/
+
+#Local ignore
+local_dev/
